@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
             model.contentColor = colors[2];
             dataList3.add(model);
         }
+
         mAdapter.addList(dataList1, dataList2, dataList3);
         mAdapter.notifyDataSetChanged();
     }
